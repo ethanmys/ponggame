@@ -1,0 +1,11 @@
+Release 14.4 Drc P.49d (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Sun Mar 24 15:42:17 2013
+
+drc -z ponggame.ncd ponggame.pcf
+
+WARNING:PhysDesignRules:367 - The signal <reset_IBUF> is incomplete. The signal
+   does not drive any load pins in the design.
+DRC detected 0 errors and 1 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

@@ -1,0 +1,5 @@
+set -tmpdir "C:/project/ponggame/xst/projnav.tmp"
+set -xsthdpdir "C:/project/ponggame/xst"
+elaborate
+-ifn div25mhz.prj
+-ifmt mixed

@@ -1,0 +1,10 @@
+INFO:encore:314 - Created non-GUI application for batch mode execution.
+ERROR:sim:569 - Failed to set default project options.
+ERROR:encore:268 - Project C:\project\ponggame\_ngo\cs_icon_pro\coregen.cgc
+   could not be opened
+ERROR:encore:312 - Couldn't create new project.
+ERROR:sim:716 - Unable to open project
+   'C:\project\ponggame\_ngo\cs_icon_pro\coregen.cgc'. Project file does not
+   exist.
+ERROR:encore:268 - Project C:\project\ponggame\_ngo\cs_icon_pro\coregen.cgc
+   could not be opened

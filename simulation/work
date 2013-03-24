@@ -1,0 +1,14 @@
+# ** Error: (vish-3296) Unknown option '-ponggame'.
+# Use the -help option for complete vsim usage.
+# Error loading design
+vsim -l work -ponggame -t -1ns test_ponggame
+# ** Error: (vish-3296) Unknown option '-ponggame'.
+# Use the -help option for complete vsim usage.
+# Error loading design
+vsim -l work -ponggame -t -1ns test_ponggame
+# ** Error: (vish-3296) Unknown option '-ponggame'.
+# Use the -help option for complete vsim usage.
+# Error loading design
+cd C:/project/ponggame/simulation/simulation
+vsim -l simulation -ponggame -t -1ns test_ponggame
+# can't set "PrefMain(file)": couldn't open "simulation": permission denied

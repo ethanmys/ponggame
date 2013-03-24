@@ -1,0 +1,10 @@
+# Compile of test_ponggame.v was successful.
+# Compile of ponggame.v was successful.
+# Compile of pongclk.v was successful.
+# Compile of div25mhz.v was successful.
+# Compile of divclk.v was successful.
+# Compile of seg7display.v was successful.
+# 6 compiles, 0 failed with no errors. 
+vsim -l simulation -ponggame -t -1ns test_ponggame
+# can't set "PrefMain(file)": couldn't open "simulation": permission denied
+vsim -l work -ponggame -t -1ns test_ponggame

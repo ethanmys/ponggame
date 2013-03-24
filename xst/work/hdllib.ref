@@ -1,0 +1,8 @@
+MO div25mhz NULL div25mhz.v vlg4D/div25mhz.bin 1364154402
+MO divclk2 NULL divclk2.v vlg03/divclk2.bin 1364154399
+MO test_ponggame NULL test_ponggame.v vlg21/test__ponggame.bin 1363445923
+MO seg7display NULL seg7display.v vlg04/seg7display.bin 1364154397
+MO ponggame NULL ponggame.v vlg1E/ponggame.bin 1364154403
+MO debounce NULL debounce.v vlg1D/debounce.bin 1364154403
+MO pongclk NULL pongclk.v vlg76/pongclk.bin 1364154398
+MO divclk NULL divclk.v vlg5D/divclk.bin 1364154401

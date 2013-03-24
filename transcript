@@ -1,0 +1,129 @@
+# Reading C:/Modeltech_pe_edu_10.2/tcl/vsim/pref.tcl 
+# do {ponggame.fdo} 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module pongclk
+# 
+# Top level modules:
+# 	pongclk
+# Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module div25mhz
+# 
+# Top level modules:
+# 	div25mhz
+# Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module debounce
+# 
+# Top level modules:
+# 	debounce
+# Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module seg7display
+# 
+# Top level modules:
+# 	seg7display
+# Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module divclk
+# 
+# Top level modules:
+# 	divclk
+# Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module ponggame
+# 
+# Top level modules:
+# 	ponggame
+# Model Technology ModelSim PE Student Edition vlog 10.2 Compiler 2013.02 Feb  2 2013
+# -- Compiling module glbl
+# 
+# Top level modules:
+# 	glbl
+# //  ModelSim PE Student Edition 10.2 Feb  2 2013 
+# //
+# //  Copyright 1991-2013 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -lib work -voptargs=\"+acc\" -t 1ps work.ponggame glbl 
+# Loading work.ponggame
+# ** Error: (vsim-19) Failed to access library 'xilinxcorelib_ver' at "xilinxcorelib_ver".
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-19) Failed to access library 'unisims_ver' at "unisims_ver".
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-19) Failed to access library 'unimacro_ver' at "unimacro_ver".
+# 
+# No such file or directory. (errno = ENOENT)
+# Loading work.pongclk
+# ** Error: (vsim-19) Failed to access library 'xilinxcorelib_ver' at "xilinxcorelib_ver".
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-19) Failed to access library 'unisims_ver' at "unisims_ver".
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-19) Failed to access library 'unimacro_ver' at "unimacro_ver".
+# 
+# No such file or directory. (errno = ENOENT)
+# Loading work.div25mhz
+# ** Error: (vsim-19) Failed to access library 'xilinxcorelib_ver' at "xilinxcorelib_ver".
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-19) Failed to access library 'unisims_ver' at "unisims_ver".
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-19) Failed to access library 'unimacro_ver' at "unimacro_ver".
+# 
+# No such file or directory. (errno = ENOENT)
+# Loading work.seg7display
+# ** Error: (vsim-19) Failed to access library 'xilinxcorelib_ver' at "xilinxcorelib_ver".
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-19) Failed to access library 'unisims_ver' at "unisims_ver".
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-19) Failed to access library 'unimacro_ver' at "unimacro_ver".
+# 
+# No such file or directory. (errno = ENOENT)
+# Loading work.divclk
+# ** Error: (vsim-19) Failed to access library 'xilinxcorelib_ver' at "xilinxcorelib_ver".
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-19) Failed to access library 'unisims_ver' at "unisims_ver".
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-19) Failed to access library 'unimacro_ver' at "unimacro_ver".
+# 
+# No such file or directory. (errno = ENOENT)
+# Loading work.debounce
+# ** Error: (vsim-19) Failed to access library 'xilinxcorelib_ver' at "xilinxcorelib_ver".
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-19) Failed to access library 'unisims_ver' at "unisims_ver".
+# 
+# No such file or directory. (errno = ENOENT)
+# ** Error: (vsim-19) Failed to access library 'unimacro_ver' at "unimacro_ver".
+# 
+# No such file or directory. (errno = ENOENT)
+# Loading work.glbl
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: chuanlimkho  Hostname: ETHANKHOCF21  ProcessID: 616
+# 
+#           Attempting to use alternate WLF file "./wlfty202i3".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlfty202i3
+# 
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+force -freeze sim:/ponggame/clk50 1 0, 0 {10000 ps} -r 20ns
+force -freeze sim:/ponggame/button 1 0, 0 {10000000000 ps} -r 20ms
+run 20000ms

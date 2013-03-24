@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/project/ponggame/test_ponggame.xst" -ofn "C:/project/ponggame/test_ponggame.syr" 
+xst -intstyle ise -ifn "C:/project/ponggame/test_ponggame.xst" -ofn "C:/project/ponggame/test_ponggame.syr" 

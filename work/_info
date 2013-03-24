@@ -1,0 +1,169 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dC:\project\ponggame
+!i10d 8192
+!i10e 25
+!i10f 100
+vdebounce
+Z1 !s110 1363739654
+Z2 IeZHc[8aC[]5d9k:[nA4cB3
+Z3 V`JN@9S9cnhjKRR_L]QIcM3
+Z4 dC:\project\ponggame
+Z5 w1363473993
+Z6 8debounce.v
+Z7 Fdebounce.v
+L0 1
+Z8 OP;L;10.2;57
+r1
+31
+Z9 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -O0
+Z10 !s100 O^Y0SYn7]WCc5Yj]B3`Ml0
+Z11 !s108 1363739654.327000
+Z12 !s107 debounce.v|
+Z13 !s90 -reportprogress|300|debounce.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdiv25mhz
+R1
+Z14 !s100 Mz0fj^I=Y?69RKEoz0GN]2
+Z15 I;@QYzK4g>6JDW@EB4?jD82
+R3
+R4
+Z16 w1363323227
+Z17 8div25mhz.v
+Z18 Fdiv25mhz.v
+L0 2
+R8
+r1
+31
+Z19 !s90 -reportprogress|300|div25mhz.v|
+R9
+Z20 !s108 1363739654.249000
+Z21 !s107 div25mhz.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vdivclk
+R1
+Z22 !s100 o4ed2T[<1_<7i@BmaMLA@2
+Z23 IC?@^g44]`SG<mh0^l?a><1
+R3
+R4
+Z24 w1362631589
+Z25 8../alarm/divclk.v
+Z26 F../alarm/divclk.v
+L0 2
+R8
+r1
+31
+Z27 !s90 -reportprogress|300|../alarm/divclk.v|
+R9
+Z28 !s108 1363739654.499000
+Z29 !s107 ../alarm/divclk.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vglbl
+R1
+!i10b 1
+Z30 !s100 V<`KW`8LXe32mQ2Gdj1MB2
+Z31 IVY7Mle:@UVklC0lomL?FX1
+R3
+R4
+Z32 w1354684238
+Z33 8C:/Xilinx/14.4/ISE_DS/ISE/verilog/src/glbl.v
+Z34 FC:/Xilinx/14.4/ISE_DS/ISE/verilog/src/glbl.v
+L0 5
+R8
+r1
+!s85 0
+31
+!s108 1363739654.655000
+!s107 C:/Xilinx/14.4/ISE_DS/ISE/verilog/src/glbl.v|
+Z35 !s90 -reportprogress|300|C:/Xilinx/14.4/ISE_DS/ISE/verilog/src/glbl.v|
+!s101 -O0
+R9
+vpongclk
+Z36 !s100 Wf75]8I4bh3?QmzlRfP8@1
+Z37 IzB25_@chEPHa@S>MYKo;[2
+R3
+R4
+Z38 w1363382491
+Z39 8pongclk.v
+Z40 Fpongclk.v
+L0 2
+R8
+r1
+31
+Z41 !s90 -reportprogress|300|pongclk.v|
+R9
+R1
+Z42 !s108 1363739654.045000
+Z43 !s107 pongclk.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vponggame
+R1
+Z44 IcBTfnDJZ::Ajz<^:kmkf@0
+R3
+R4
+Z45 w1363661081
+Z46 8ponggame.v
+Z47 Fponggame.v
+L0 21
+R8
+r1
+31
+Z48 !s90 -reportprogress|300|ponggame.v|
+R9
+!i10b 1
+Z49 !s100 FOo5M2U7i8ZMYFd>bjjSo2
+!s85 0
+Z50 !s108 1363739654.561000
+Z51 !s107 ponggame.v|
+!s101 -O0
+vseg7display
+R1
+Z52 !s100 =4;ld5]X0b6n12bA2Alb?1
+Z53 ISaL0JHa9d98M8@GAl8gEU3
+R3
+R4
+Z54 w1362604799
+Z55 8../alarm/seg7display.v
+Z56 F../alarm/seg7display.v
+L0 1
+R8
+r1
+31
+Z57 !s90 -reportprogress|300|../alarm/seg7display.v|
+R9
+Z58 !s108 1363739654.405000
+Z59 !s107 ../alarm/seg7display.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtest_ponggame
+Z60 !s110 1363413800
+Z61 IHQcG8LFeEFGl=XhO8M=LU3
+R3
+R4
+Z62 w1363413778
+Z63 8test_ponggame.v
+Z64 Ftest_ponggame.v
+L0 21
+R8
+r1
+31
+R9
+Z65 !s100 bN;W>1A4=G?JMiXCJjI>83
+Z66 !s108 1363413800.599000
+Z67 !s107 test_ponggame.v|
+Z68 !s90 -reportprogress|300|test_ponggame.v|
+!i10b 1
+!s85 0
+!s101 -O0

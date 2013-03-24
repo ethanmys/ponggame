@@ -1,0 +1,6 @@
+verilog work "pongclk.v"
+verilog work "div25mhz.v"
+verilog work "../alarm/seg7display.v"
+verilog work "../alarm/divclk.v"
+verilog work "ponggame.v"
+verilog work "test_ponggame.v"

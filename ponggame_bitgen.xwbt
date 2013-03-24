@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=Z:\Desktop\github\ponggame\ponggame.ncd
+OUTFILE=Z:\Desktop\github\ponggame\ponggame.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=Z:\Desktop\github\ponggame
+LICENSE=WebPack
+USER_INFO=176551061_0_0_630

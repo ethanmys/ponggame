@@ -1,0 +1,34 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "clk50" LOC = "B8"; # Bank = 1, Pin name = IO_L19N_1, Type = I/O, Sch name = AN0
+NET "button" LOC = "B18";
+#NET "button" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "button1" LOC = "D18";
+#NET "button1" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "reset" LOC = "E18";
+NET "reset" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "hs" LOC = "T4";
+NET "vs" LOC = "U3";
+NET "r" LOC = "R8";
+NET "g" LOC = "P8";
+NET "b" LOC = "U5";
+
+
+
+NET "anode[0]" LOC = "F17"; # Bank = 1, Pin name = IO_L19N_1, Type = I/O, Sch name = AN0
+NET "anode[1]" LOC = "H17"; # Bank = 1, Pin name = IO_L16N_1/A0, Type = DUAL, Sch name = AN1
+NET "anode[2]" LOC = "C18"; # Bank = 1, Pin name = IO_L24P_1/LDC1, Type = DUAL, Sch name = AN2
+NET "anode[3]" LOC = "F15"; # Bank = 1, Pin name = IO_L21P_1, Type = I/O, Sch name = AN3
+NET "led" LOC = "J14";
+NET "seg7[0]" LOC = "L18"; # Bank = 1, Pin name = IO_L10P_1, Type = I/O, Sch name = CA
+NET "seg7[1]" LOC = "F18"; # Bank = 1, Pin name = IO_L19P_1, Type = I/O, Sch name = CB
+NET "seg7[2]" LOC = "D17"; # Bank = 1, Pin name = IO_L23P_1/HDC, Type = DUAL, Sch name = CC
+NET "seg7[3]" LOC = "D16"; # Bank = 1, Pin name = IO_L23N_1/LDC0, Type = DUAL, Sch name = CD
+NET "seg7[4]" LOC = "G14"; # Bank = 1, Pin name = IO_L20P_1, Type = I/O, Sch name = CE
+NET "seg7[5]" LOC = "J17"; # Bank = 1, Pin name = IO_L13P_1/A6/RHCLK4/IRDY1, Type = RHCLK/DUAL, Sch name = CF
+NET "seg7[6]" LOC = "H14"; # Bank = 1, Pin name = IO_L17P_1, Type = I/O, Sch name = CG
+#NET "vga_red1" LOC = "F17";
+#NET "vga_green1" LOC = "F17";
+#NET "vga_blue1" LOC = "F17";
+#NET "push_button" LOC = "G18";
