@@ -1,5 +1,4 @@
 verilog work "seg7display.v"
-verilog work "pongclk.v"
 verilog work "divclk2.v"
 verilog work "divclk.v"
 verilog work "div25mhz.v"

@@ -2,19 +2,22 @@
 # PlanAhead Generated physical constraints 
 
 NET "clk50" LOC = "B8"; # Bank = 1, Pin name = IO_L19N_1, Type = I/O, Sch name = AN0
-NET "button" LOC = "B18";
+NET "button2" LOC = "B18";
 #NET "button" CLOCK_DEDICATED_ROUTE = FALSE;
-NET "button1" LOC = "D18";
+NET "button3" LOC = "D18";
 #NET "button1" CLOCK_DEDICATED_ROUTE = FALSE;
-NET "reset" LOC = "E18";
-NET "reset" CLOCK_DEDICATED_ROUTE = FALSE;
+//change to slider swtich
+NET "button" LOC = "E18"; # Bank = 1, Pin name = IP, Type = INPUT, Sch name = BTN2
+NET "button1" LOC = "H13"; # Bank = 1, Pin name = IP, Type = INPUT, Sch name = BTN3
+NET "reset" LOC="R17";
 NET "hs" LOC = "T4";
 NET "vs" LOC = "U3";
 NET "r" LOC = "R8";
 NET "g" LOC = "P8";
 NET "b" LOC = "U5";
 
-
+NET "ballspeed[0]" LOC = "G18";
+NET "ballspeed[1]" LOC = "H18"; 
 
 NET "anode[0]" LOC = "F17"; # Bank = 1, Pin name = IO_L19N_1, Type = I/O, Sch name = AN0
 NET "anode[1]" LOC = "H17"; # Bank = 1, Pin name = IO_L16N_1/A0, Type = DUAL, Sch name = AN1

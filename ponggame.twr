@@ -45,7 +45,7 @@ Clock clk50 to Pad
             | clk (edge) |                  | Clock  |
 Destination |   to PAD   |Internal Clock(s) | Phase  |
 ------------+------------+------------------+--------+
-led         |    7.690(R)|clk50_BUFGP       |   0.000|
+led         |    8.091(R)|clk50_BUFGP       |   0.000|
 ------------+------------+------------------+--------+
 
 Clock to Setup on destination clock clk50
@@ -53,18 +53,18 @@ Clock to Setup on destination clock clk50
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk50          |    7.604|         |         |         |
+clk50          |    7.727|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 
-Analysis completed Sun Mar 24 15:41:55 2013 
+Analysis completed Tue Mar 26 02:16:57 2013 
 --------------------------------------------------------------------------------
 
 Trace Settings:
 -------------------------
 Trace Settings 
 
-Peak Memory Usage: 176 MB
+Peak Memory Usage: 181 MB
 
 
 

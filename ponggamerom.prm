@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.49d
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o Z:\Desktop\github\ponggame//ponggamerom -x xcf04s -u 00000000 Z:/Desktop/github/ponggame/ponggame_cclktemp.bit 
+
+PROM \\psf\home\Desktop\github\ponggame\ponggamerom.prm map: Tue Mar 26 16:02:42 2013
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          512K
+PROM start    0000:0000
+PROM end      0007:ffff
+PROM checksum 03b6d8d9
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0004:547f     Mar 26 16:01:03 2013 Z:/Desktop/github/ponggame/ponggame_cclktemp.bit

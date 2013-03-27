@@ -9,37 +9,35 @@ Target Device  : xc3s500e
 Target Package : fg320
 Target Speed   : -5
 Mapper Version : spartan3e -- $Revision: 1.55 $
-Mapped Date    : Sun Mar 24 15:27:43 2013
+Mapped Date    : Tue Mar 26 02:01:28 2013
 
 Design Summary
 --------------
 Number of errors:      0
 Number of warnings:    1
 Logic Utilization:
-  Total Number Slice Registers:         257 out of   9,312    2%
-    Number used as Flip Flops:          241
-    Number used as Latches:              16
-  Number of 4 input LUTs:               412 out of   9,312    4%
+  Number of Slice Flip Flops:           306 out of   9,312    3%
+  Number of 4 input LUTs:               628 out of   9,312    6%
 Logic Distribution:
-  Number of occupied Slices:            370 out of   4,656    7%
-    Number of Slices containing only related logic:     370 out of     370 100%
-    Number of Slices containing unrelated logic:          0 out of     370   0%
+  Number of occupied Slices:            532 out of   4,656   11%
+    Number of Slices containing only related logic:     532 out of     532 100%
+    Number of Slices containing unrelated logic:          0 out of     532   0%
       *See NOTES below for an explanation of the effects of unrelated logic.
-  Total Number of 4 input LUTs:         675 out of   9,312    7%
-    Number used as logic:               412
-    Number used as a route-thru:        263
+  Total Number of 4 input LUTs:         972 out of   9,312   10%
+    Number used as logic:               628
+    Number used as a route-thru:        344
 
   The Slice Logic Distribution report is not meaningful if the design is
   over-mapped for a non-slice resource or if Placement fails.
 
-  Number of bonded IOBs:                 21 out of     232    9%
+  Number of bonded IOBs:                 25 out of     232   10%
   Number of BUFGMUXs:                     4 out of      24   16%
 
-Average Fanout of Non-Clock Nets:                2.55
+Average Fanout of Non-Clock Nets:                2.64
 
-Peak Memory Usage:  254 MB
-Total REAL time to MAP completion:  18 secs 
-Total CPU time to MAP completion:   2 secs 
+Peak Memory Usage:  256 MB
+Total REAL time to MAP completion:  35 secs 
+Total CPU time to MAP completion:   3 secs 
 
 NOTES:
 
@@ -123,8 +121,12 @@ Section 6 - IOB Properties
 | anode<2>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
 | anode<3>                           | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
 | b                                  | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
+| ballspeed<0>                       | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| ballspeed<1>                       | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
 | button                             | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
 | button1                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| button2                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
+| button3                            | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
 | clk50                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
 | g                                  | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
 | hs                                 | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |

@@ -1,7 +1,7 @@
 Release 14.4 Drc P.49d (nt64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
-Sun Mar 24 15:42:17 2013
+Tue Mar 26 02:17:16 2013
 
 drc -z ponggame.ncd ponggame.pcf
 
