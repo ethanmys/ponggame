@@ -13,9 +13,9 @@
 //	- ponggame.ucf: Pin mapping on FPGA board
 // 	-
 //////////////////////////////	////////////////////////////////////////////////////
-module ponggame(hs,vs,clk50,r,g,b,seg7,anode,led,button,button1,button2,button3,reset,ballspeed);
+module ponggame(hs,vs,clk50,r,g,b,seg7,anode,led,button,button1,button2,button3,ballspeed);
 input clk50;
-input button,button1,button2,button3,reset;
+input button,button1,button2,button3;
 input [1:0] ballspeed;
 output hs,vs,r,g,b,led;
 output [6:0] seg7;
@@ -25,7 +25,7 @@ output [3:0] anode;
 
 reg [15:0] x1=400; // xposition of ball
 reg [15:0] y1=400; //yposition of ball
-wire led,clk,pongclk;
+wire led,clk;
 reg [3:0] anode; // for 7 segment display
 reg hs,vs=0;
 reg r,g,b,obj_on;
@@ -34,15 +34,15 @@ reg[3:0] hex; //hex register for 7 segment
 parameter x_pwbp=144; // pw+bp time period for x
 parameter y_pwbp=31; // pw+bp time period for y
 integer Hcounter,Vcounter=0;
-reg [15:0]xpaddle=0; //xposition for left paddle
+parameter [15:0]xpaddle=0; //xposition for left paddle
 reg [15:0]ypaddle=200; // yposition for left paddle
-reg [15:0]xpaddle1=625;
+parameter [15:0]xpaddle1=625;
 reg [15:0]ypaddle1=200;
 reg paddle_on=1'b0; //left paddle signal for vga
 reg paddle1_on=1'b0;//right paddle signal for vga
 reg [7:0]score=0; // score board for left player
 reg [7:0]score1=0; // score board for right player
-reg sig=1'b0;
+//reg sig=1'b0;
 //pongclk pongclock(.clk50(clk50),.pongclk(pongclk),.sig(sig));
 div25mhz div2clk50(.clk50(clk50),.clk25(clk));// divide 50mhz clk to 25 mhz
 // seg 7 display
@@ -110,8 +110,10 @@ begin
 end
 //end of hs vs signal generator for VGA
 //need to have a register to tell when it is  ready for a new frame
+/*
 reg UpdateBallPosition;       // active only once for every video frame
 always @(posedge clk50) UpdateBallPosition <= (Vcounter==520) & (Hcounter==0);
+*/
 reg posX=1'b0; // register for direction of ball in x-direction
 reg posY=1'b0; //y register for direction of ball in y direction
 
@@ -185,7 +187,7 @@ debounce debouncebutton1 (.inbutton(button1),.outbutton(fbutton1),.clk(secclk));
 debounce debouncebutton2 (.inbutton(button2),.outbutton(fbutton2),.clk(secclk));
 debounce debouncebutton3 (.inbutton(button3),.outbutton(fbutton3),.clk(secclk));
 // end of debounce circuit for buttons
-always @(Hcounter,Vcounter,x_pwbp,y_pwbp,x1,y1)
+always @(Hcounter,Vcounter,x1,y1)
 begin
 
 	if ((Hcounter >=x1+x_pwbp) && (Hcounter < x1+x_pwbp+10) && (Vcounter >=y1+y_pwbp) && (Vcounter <y1+y_pwbp+10)) begin
@@ -234,7 +236,7 @@ dig4<=score1[7:4];
 end 
 //position of paadle
 
-always @(Hcounter,Vcounter,x_pwbp,y_pwbp,xpaddle,ypaddle)
+always @(Hcounter,Vcounter,ypaddle)
 begin
 
 	if ((Hcounter >=xpaddle+x_pwbp) && (Hcounter < xpaddle+x_pwbp+15) && (Vcounter >=ypaddle+y_pwbp) && (Vcounter <ypaddle+y_pwbp+100)) begin
@@ -280,7 +282,7 @@ end
 //position of paadle
 
 
-always @(Hcounter,Vcounter,x_pwbp,y_pwbp,ypaddle1)
+always @(Hcounter,Vcounter,ypaddle1)
 begin
 
 	if ((Hcounter >=xpaddle1+x_pwbp) && (Hcounter < xpaddle1+x_pwbp+15) && (Vcounter >=ypaddle1+y_pwbp) && (Vcounter <ypaddle1+y_pwbp+100)) begin
@@ -292,7 +294,7 @@ begin
 end
 // end of the right paddle
 // selection of signal to output to monitor
-always @(obj_on,Hcounter,Vcounter)
+always @(obj_on,Hcounter,Vcounter,paddle_on,paddle1_on)
 begin
 
 	if ((obj_on==1'b1)||(paddle_on==1'b1)||(paddle1_on==1'b1)) begin

@@ -1,5 +1,5 @@
 //! **************************************************************************
-// Written by: Map P.49d on Tue Mar 26 02:01:57 2013
+// Written by: Map P.49d on Sun Mar 31 16:58:05 2013
 //! **************************************************************************
 
 SCHEMATIC START;
@@ -19,7 +19,6 @@ COMP "seg7<3>" LOCATE = SITE "D16" LEVEL 1;
 COMP "seg7<4>" LOCATE = SITE "G14" LEVEL 1;
 COMP "seg7<5>" LOCATE = SITE "J17" LEVEL 1;
 COMP "seg7<6>" LOCATE = SITE "H14" LEVEL 1;
-COMP "reset" LOCATE = SITE "R17" LEVEL 1;
 COMP "button1" LOCATE = SITE "H13" LEVEL 1;
 COMP "button2" LOCATE = SITE "B18" LEVEL 1;
 COMP "button3" LOCATE = SITE "D18" LEVEL 1;

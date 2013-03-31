@@ -9,35 +9,35 @@ Target Device  : xc3s500e
 Target Package : fg320
 Target Speed   : -5
 Mapper Version : spartan3e -- $Revision: 1.55 $
-Mapped Date    : Tue Mar 26 02:01:28 2013
+Mapped Date    : Sun Mar 31 16:58:03 2013
 
 Design Summary
 --------------
 Number of errors:      0
-Number of warnings:    1
+Number of warnings:    0
 Logic Utilization:
   Number of Slice Flip Flops:           306 out of   9,312    3%
-  Number of 4 input LUTs:               628 out of   9,312    6%
+  Number of 4 input LUTs:               647 out of   9,312    6%
 Logic Distribution:
-  Number of occupied Slices:            532 out of   4,656   11%
-    Number of Slices containing only related logic:     532 out of     532 100%
-    Number of Slices containing unrelated logic:          0 out of     532   0%
+  Number of occupied Slices:            543 out of   4,656   11%
+    Number of Slices containing only related logic:     543 out of     543 100%
+    Number of Slices containing unrelated logic:          0 out of     543   0%
       *See NOTES below for an explanation of the effects of unrelated logic.
-  Total Number of 4 input LUTs:         972 out of   9,312   10%
-    Number used as logic:               628
+  Total Number of 4 input LUTs:         991 out of   9,312   10%
+    Number used as logic:               647
     Number used as a route-thru:        344
 
   The Slice Logic Distribution report is not meaningful if the design is
   over-mapped for a non-slice resource or if Placement fails.
 
-  Number of bonded IOBs:                 25 out of     232   10%
+  Number of bonded IOBs:                 24 out of     232   10%
   Number of BUFGMUXs:                     4 out of      24   16%
 
-Average Fanout of Non-Clock Nets:                2.64
+Average Fanout of Non-Clock Nets:                2.65
 
 Peak Memory Usage:  256 MB
-Total REAL time to MAP completion:  35 secs 
-Total CPU time to MAP completion:   3 secs 
+Total REAL time to MAP completion:  3 secs 
+Total CPU time to MAP completion:   2 secs 
 
 NOTES:
 
@@ -78,12 +78,9 @@ Section 1 - Errors
 
 Section 2 - Warnings
 --------------------
-WARNING:PhysDesignRules:367 - The signal <reset_IBUF> is incomplete. The signal
-   does not drive any load pins in the design.
 
 Section 3 - Informational
 -------------------------
-INFO:LIT:243 - Logical network reset_IBUF has no load.
 INFO:MapLib:562 - No environment variables are currently set.
 INFO:LIT:244 - All of the single ended outputs in this design are using slew
    rate limited output drivers. The delay on speed critical single ended outputs
@@ -132,7 +129,6 @@ Section 6 - IOB Properties
 | hs                                 | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
 | led                                | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
 | r                                  | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
-| reset                              | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
 | seg7<0>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
 | seg7<1>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |
 | seg7<2>                            | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          | 0 / 0    |

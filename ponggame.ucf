@@ -9,7 +9,7 @@ NET "button3" LOC = "D18";
 //change to slider swtich
 NET "button" LOC = "E18"; # Bank = 1, Pin name = IP, Type = INPUT, Sch name = BTN2
 NET "button1" LOC = "H13"; # Bank = 1, Pin name = IP, Type = INPUT, Sch name = BTN3
-NET "reset" LOC="R17";
+#NET "reset" LOC="R17";
 NET "hs" LOC = "T4";
 NET "vs" LOC = "U3";
 NET "r" LOC = "R8";
